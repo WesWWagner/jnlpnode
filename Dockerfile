@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:alpine3.10
 
 FROM jenkins/slave:3.36-1
 MAINTAINER Wes Wagner <wes.wagner@gmail.com>
